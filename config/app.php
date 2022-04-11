@@ -191,6 +191,9 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'Artisan' => Illuminate\Support\Facades\Artisan::class,
+        'Validator' => Illuminate\Support\Facades\Validator::class,
+        'DB' => Illuminate\Support\Facades\DB::class,
         // 'ExampleClass' => App\Example\ExampleClass::class,
     ])->toArray(),
 
